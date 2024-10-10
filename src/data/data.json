@@ -1,0 +1,185 @@
+{
+  "Header": {
+    "title": "Bem-vindo à LBR",
+    "paragraph": "Especialistas em serviços de manutenção e reparos automotivos em São Paulo. Nossa equipe altamente qualificada garante que seu veículo esteja sempre em perfeitas condições. Com atendimento rápido e eficiente, estamos aqui para resolver todos os problemas do seu carro com confiança e transparência."
+  },
+  "About": {
+    "paragraph": "Na nossa empresa, oferecemos serviços de mecânica com excelência e dedicação. Com uma equipe especializada e equipamentos de última geração, garantimos a qualidade e segurança para o seu veículo. Estamos comprometidos em proporcionar um atendimento confiável e transparente, buscando sempre a sua satisfação.",
+    "Why": [
+      "Experiência",
+      "Equipe Especializada",
+      "Transparência: Clareza",
+      "Compromisso com a Qualidade"
+    ],
+    "Why2": [
+      "Tecnologia Avançada",
+      "Serviço Rápido",
+      "Preços Justos",
+      "Atendimento Amigávelr"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Soluções Completas para Seu Veículo",
+      "largeImage": "img/portfolio/man.jpg",
+      "smallImage": "img/portfolio/man.jpg"
+    },
+    {
+      "title": "Soluções Completas para Seu Veículo",
+      "largeImage": "img/portfolio/molas.jpg",
+      "smallImage": "img/portfolio/molas.jpg"
+    },
+    {
+      "title": "Soluções Completas para Seu Veículo",
+      "largeImage": "img/portfolio/oleo.jpg",
+      "smallImage": "img/portfolio/oleo.jpg"
+    },
+    {
+      "title": "Soluções Completas para Seu Veículo",
+      "largeImage": "img/portfolio/man2.jpg",
+      "smallImage": "img/portfolio/man2.jpg"
+    },
+    {
+      "title": "Soluções Completas para Seu Veículo",
+      "largeImage": "img/portfolio/chave.jpg",
+      "smallImage": "img/portfolio/chave.jpg"
+    },
+    {
+      "title": "Soluções Completas para Seu Veículo",
+      "largeImage": "img/portfolio/chaves2.jpg",
+      "smallImage": "img/portfolio/chaves2.jpg"
+    },
+    {
+      "title": "Soluções Completas para Seu Veículo",
+      "largeImage": "img/portfolio/chaves3.jpg",
+      "smallImage": "img/portfolio/chaves3.jpg"
+    },
+    {
+      "title": "Soluções Completas para Seu Veículo",
+      "largeImage": "img/portfolio/motor.jpg",
+      "smallImage": "img/portfolio/man.jpg"
+    },
+    {
+      "title": "Soluções Completas para Seu Veículo",
+      "largeImage": "img/portfolio/man2.jpg",
+      "smallImage": "img/portfolio/man2.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "fa fa-car",
+      "name": "Remoção e Instalação do Motor",
+      "text": "Serviço completo de remoção e instalação do motor, garantindo a segurança e a eficiência do seu veículo."
+    },
+    {
+      "icon": "fa fa-car",
+      "name": "Retífica de Cabeçote",
+      "text": "Recondicionamento do cabeçote para otimizar o desempenho e a eficiência do motor."
+    },
+    {
+      "icon": "fa fa-car",
+      "name": "Retífica de Cilindros",
+      "text": "Processo de retífica dos cilindros para restaurar a capacidade de compressão e melhorar a potência do motor."
+    },
+    {
+      "icon": "fa fa-car",
+      "name": " Jogo de Pistões Novos",
+      "text": "Substituição dos pistões por novos, assegurando melhor desempenho e durabilidade."
+    },
+    {
+      "icon": "fa fa-car",
+      "name": "Retífica de Virabrequim",
+      "text": "Ajuste e balanceamento do virabrequim para garantir um funcionamento suave do motor."
+    },
+    {
+      "icon": "fa fa-car",
+      "name": "Retífica de Bielas",
+      "text": "Recondicionamento das bielas para otimizar a transmissão de força e a eficiência do motor."
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Atendimento excelente, resolveram tudo rapidamente!\"",
+      "name": "Carlos Silva"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Serviço de alta qualidade, muito profissional e confiável.\"",
+      "name": "Ana Pereira"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"A equipe foi super atenciosa e o resultado foi perfeito.\"",
+      "name": "Lucas Oliveira"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"Fiquei muito satisfeito, super recomendo o serviço!\"",
+      "name": "Mariana Souza"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"Preço justo e um trabalho de excelência!\"",
+      "name": "Ricardo Lima"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"A melhor experiência que já tive com manutenção de motores.\"",
+      "name": "Juliana Costa"
+    }
+    
+  ],
+  "Team": [
+    {
+      "img": "img/team/person.webp",
+      "name": "John Doe",
+      "job": "Director"
+    },
+    {
+      "img": "img/team/person.webp",
+      "name": "Mike Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/person.webp",
+      "name": "Jane Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/person.webp",
+      "name": "Karen Doe",
+      "job": "Project Manager"
+    }
+  ],
+  "Contact": {
+    "address": "Av. Professor Oscar Campiglia, 236 - PQ.Ypê-SP",
+    "phone": "11 98571-0398",
+    "email": "info@company.com",
+    "facebook": "LBR.COM",
+    "twitter": "LBR.COM",
+    "youtube": "LBR.COM"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Atendimento Personalizado",
+      "text": "Oferecemos uma consultoria personalizada para cada cliente, explicando de forma clara o que seu carro precisa."
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Comunicação Clara e Transparente",
+      "text": "Transmitimos informações objetivas sobre os serviços, garantindo um atendimento sem complicações."
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "Soluções em Equipe",
+      "text": "Nossa equipe trabalha junta para garantir que seu carro receba o melhor serviço possível."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Resultados Rápidos e Eficientes",
+      "text": "Aplicamos soluções rápidas e eficazes para que seu carro funcione como novo em pouco tempo."
+    }
+  ]
+}
