@@ -207,6 +207,7 @@ a:focus,
 .intro {
   display: table;
   width: 100%;
+  height: 100vh; /* Definindo a altura para 100% da viewport */
   padding: 0;
   background-color: #e5e5e5; /* Cor de fundo como fallback */
   background-position: center center;
@@ -216,6 +217,11 @@ a:focus,
   -moz-background-size: cover;
   -o-background-size: cover;
   transition: background-image 1s ease-in-out; /* Animação suave na troca de imagem */
+}
+@media (max-width: 768px) { /* Ajuste o valor conforme necessário */
+  .intro {
+    width: 113%; /* Definindo a largura para 110% no mobile */
+  }
 }
 
 .intro .overlay {

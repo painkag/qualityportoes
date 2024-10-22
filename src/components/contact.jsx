@@ -1,41 +1,47 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import emailjs from "emailjs-com";
 import React from "react";
 import { HandleWhatsClick } from "../utils/whatssap";
+import ImageCreators from "./ImageCreators/imageCreate";
 
 const initialState = {
   name: "",
   email: "",
   message: "",
 };
+
 export const Contact = (props) => {
   const [{ name, email, message }, setState] = useState(initialState);
+  const formRef = useRef(); // Usando useRef para capturar o formulário
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
+
   const clearState = () => setState({ ...initialState });
-  
-  
+
   const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log(name, email, message);
-    
-    {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
-    
+    e.preventDefault(); // Previne o comportamento padrão do formulário
+
     emailjs
-      .sendForm("service_rttos6k", "template_vmc9jzm", e.target, "h_BMIWtJYJS3kBt-p")
+      .sendForm(
+        "service_rttos6k", // Seu Service ID
+        "template_vmc9jzm", // Seu Template ID
+        formRef.current, // Captura os dados do formulário usando a referência
+        "h_BMIWtJYJS3kBt-p" // Seu Public Key
+      )
       .then(
         (result) => {
           console.log(result.text);
-          clearState();
+          clearState(); // Limpa os campos após o envio
         },
         (error) => {
           console.log(error.text);
         }
       );
   };
+
   return (
     <div>
       <div id="contact">
@@ -45,10 +51,11 @@ export const Contact = (props) => {
               <div className="section-title">
                 <h2>Entre em contato</h2>
                 <p>
-                Preencha o formulário abaixo para nos enviar um e-mail, e retornaremos o contato o mais rápido possível.
+                  Preencha o formulário abaixo para nos enviar um e-mail, e
+                  retornaremos o contato o mais rápido possível.
                 </p>
               </div>
-              <form name="sentMessage" validate onSubmit={handleSubmit}>
+              <form ref={formRef} name="sentMessage" onSubmit={handleSubmit}>
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
@@ -57,9 +64,10 @@ export const Contact = (props) => {
                         id="name"
                         name="name"
                         className="form-control"
-                        placeholder="Name"
+                        placeholder="Nome"
                         required
                         onChange={handleChange}
+                        value={name} // Adiciona o valor ao input
                       />
                       <p className="help-block text-danger"></p>
                     </div>
@@ -74,6 +82,7 @@ export const Contact = (props) => {
                         placeholder="Email"
                         required
                         onChange={handleChange}
+                        value={email} // Adiciona o valor ao input
                       />
                       <p className="help-block text-danger"></p>
                     </div>
@@ -85,9 +94,10 @@ export const Contact = (props) => {
                     id="message"
                     className="form-control"
                     rows="4"
-                    placeholder="Message"
+                    placeholder="Mensagem"
                     required
                     onChange={handleChange}
+                    value={message} // Adiciona o valor ao textarea
                   ></textarea>
                   <p className="help-block text-danger"></p>
                 </div>
@@ -98,6 +108,7 @@ export const Contact = (props) => {
               </form>
             </div>
           </div>
+          {/* Informações de contato */}
           <div className="col-md-3 col-md-offset-1 contact-info">
             <div className="contact-item">
               <h3>Informações para contato</h3>
@@ -125,6 +136,7 @@ export const Contact = (props) => {
               </p>
             </div>
           </div>
+          {/* Redes sociais */}
           <div className="col-md-12">
             <div className="row">
               <div className="social">
@@ -141,10 +153,15 @@ export const Contact = (props) => {
                   </li>
                   <li>
                     <a href={props.data ? props.data.youtube : "/"}>
-                    <i
-  onClick={() => HandleWhatsClick({ phoneNumber: '+5511977154129', message: 'Olá, gostaria de mais informações.' })}
-  className="fa fa-whatsapp"
-></i>
+                      <i
+                        onClick={() =>
+                          HandleWhatsClick({
+                            phoneNumber: "+5511977154129",
+                            message: "Olá, gostaria de mais informações.",
+                          })
+                        }
+                        className="fa fa-whatsapp"
+                      ></i>
                     </a>
                   </li>
                 </ul>
@@ -155,7 +172,12 @@ export const Contact = (props) => {
       </div>
       <div id="footer">
         <div className="container text-center">
-        <a href="https://br.freepik.com/fotos-gratis/mao-de-mecanico-verificando-e-consertando-um-carro-quebrado-na-garagem-de-servico_10521910.htm#query=banner%20mecanica&position=1&from_view=keyword&track=ais_hybrid&uuid=685afeea-787b-43c0-bfe9-80fedb3d6849">Imagem de standret</a> no Freepik</div>
+          <a
+            href="https://br.freepik.com/fotos-gratis/mao-de-mecanico-verificando-e-consertando-um-carro-quebrado-na-garagem-de-servico_10521910.htm#query=banner%20mecanica&position=1&from_view=keyword&track=ais_hybrid&uuid=685afeea-787b-43c0-bfe9-80fedb3d6849"
+          >
+            Imagem de standret no Freepik
+          </a>
+        </div>
       </div>
     </div>
   );
