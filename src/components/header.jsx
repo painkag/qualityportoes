@@ -4,9 +4,9 @@ import { HandleWhatsClick } from "../utils/whatssap";
 export const Header = (props) => {
   // Lista de URLs das imagens de fundo
   const images = [
-    "../img/mao.jpg",
-    "../img/oleo2.jpg",
-    "../img/motor2.jpg",
+    "../img/portao.jpg",
+    "../img/portao1.jpg",
+    "../img/portao2.jpg",
   ];
 
   // Estado para controlar o índice da imagem atual

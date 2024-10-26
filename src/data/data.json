@@ -1,10 +1,10 @@
 {
   "Header": {
-    "title": "Bem-vindo à LBR",
-    "paragraph": "Especialistas em serviços de manutenção e reparos automotivos em São Paulo. Nossa equipe altamente qualificada garante que seu veículo esteja sempre em perfeitas condições. Com atendimento rápido e eficiente, estamos aqui para resolver todos os problemas do seu carro com confiança e transparência."
+    "title": "Bem-vindo à QUALITY",
+    "paragraph": "Especialistas em fabricação e instalação de portões em São Paulo. Nossa equipe altamente qualificada garante que seu portão esteja sempre em perfeitas condições. Com atendimento rápido e eficiente, estamos aqui para fornecer soluções de portões com confiança e transparência."
   },
   "About": {
-    "paragraph": "Na nossa empresa, oferecemos serviços de mecânica com excelência e dedicação. Com uma equipe especializada e equipamentos de última geração, garantimos a qualidade e segurança para o seu veículo. Estamos comprometidos em proporcionar um atendimento confiável e transparente, buscando sempre a sua satisfação.",
+    "paragraph": "Na nossa empresa, oferecemos serviços de serralheria com excelência e dedicação. Com uma equipe especializada e equipamentos de última geração, garantimos a qualidade e segurança do seu portão. Estamos comprometidos em proporcionar um atendimento confiável e transparente, sempre buscando a sua satisfação",
     "Why": [
       "Experiência",
       "Equipe Especializada",
@@ -20,115 +20,53 @@
   },
   "Gallery": [
     {
-      "title": "Soluções Completas para Seu Veículo",
-      "largeImage": "img/portfolio/man.jpg",
-      "smallImage": "img/portfolio/man.jpg"
+      "title": "Soluções Completas para Seu Portão",
+      "largeImage": "img/porta3.jpg",
+      "smallImage": "img/portao3.jpg"
     },
     {
-      "title": "Soluções Completas para Seu Veículo",
-      "largeImage": "img/portfolio/molas.jpg",
-      "smallImage": "img/portfolio/molas.jpg"
+      "title": "Soluções Completas para Seu Portão",
+      "largeImage": "img/portao5.jpg",
+      "smallImage": "img/portao5.jpg"
     },
     {
-      "title": "Soluções Completas para Seu Veículo",
-      "largeImage": "img/portfolio/oleo.jpg",
-      "smallImage": "img/portfolio/oleo.jpg"
-    },
-    {
-      "title": "Soluções Completas para Seu Veículo",
-      "largeImage": "img/portfolio/man2.jpg",
-      "smallImage": "img/portfolio/man2.jpg"
-    },
-    {
-      "title": "Soluções Completas para Seu Veículo",
-      "largeImage": "img/portfolio/chave.jpg",
-      "smallImage": "img/portfolio/chave.jpg"
-    },
-    {
-      "title": "Soluções Completas para Seu Veículo",
-      "largeImage": "img/portfolio/chaves2.jpg",
-      "smallImage": "img/portfolio/chaves2.jpg"
-    },
-    {
-      "title": "Soluções Completas para Seu Veículo",
-      "largeImage": "img/portfolio/chaves3.jpg",
-      "smallImage": "img/portfolio/chaves3.jpg"
-    },
-    {
-      "title": "Soluções Completas para Seu Veículo",
-      "largeImage": "img/portfolio/motor.jpg",
-      "smallImage": "img/portfolio/man.jpg"
-    },
-    {
-      "title": "Soluções Completas para Seu Veículo",
-      "largeImage": "img/portfolio/man2.jpg",
-      "smallImage": "img/portfolio/man2.jpg"
+      "title": "Soluções Completas para Seu Portão",
+      "largeImage": "img/portao12.jpg",
+      "smallImage": "img/portao12.jpg"
     }
   ],
-  "Services": [
-    {
-      "icon": "fa fa-car",
-      "name": "Remoção e Instalação do Motor",
-      "text": "Serviço completo de remoção e instalação do motor, garantindo a segurança e a eficiência do seu veículo."
+ "Services": [
+   {
+      "icon": "fa fa-wrench",
+      "name": "Instalação de Portões",
+      "text": "Instalamos e trocamos portões para segurança e eficiência."
     },
     {
-      "icon": "fa fa-car",
-      "name": "Retífica de Cabeçote",
-      "text": "Recondicionamento do cabeçote para otimizar o desempenho e a eficiência do motor."
+      "icon": "fa fa-wrench",
+      "name": "Reparo de Portões",
+      "text": "Reparamos portões para melhor desempenho e durabilidade."
     },
     {
-      "icon": "fa fa-car",
-      "name": "Retífica de Cilindros",
-      "text": "Processo de retífica dos cilindros para restaurar a capacidade de compressão e melhorar a potência do motor."
+      "icon": "fa fa-wrench",
+      "name": "Limpeza de Estruturas",
+      "text": "Realizamos a limpeza de estruturas para um funcionamento adequado."
     },
     {
-      "icon": "fa fa-car",
-      "name": " Jogo de Pistões Novos",
-      "text": "Substituição dos pistões por novos, assegurando melhor desempenho e durabilidade."
+      "icon": "fa fa-wrench",
+      "name": "Substituição de Acessórios",
+      "text": "Substituímos acessórios danificados por novos."
     },
     {
-      "icon": "fa fa-car",
-      "name": "Retífica de Virabrequim",
-      "text": "Ajuste e balanceamento do virabrequim para garantir um funcionamento suave do motor."
+      "icon": "fa fa-wrench",
+      "name": "Manutenção de Mecanismos",
+      "text": "Ajustamos mecanismos para funcionamento suave e seguro."
     },
     {
-      "icon": "fa fa-car",
-      "name": "Retífica de Bielas",
-      "text": "Recondicionamento das bielas para otimizar a transmissão de força e a eficiência do motor."
+      "icon": "fa fa-wrench",
+      "name": "Reparo de Fechaduras",
+      "text": "Recondicionamos fechaduras para maior segurança."
     }
-  ],
-  "Testimonials": [
-    {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"Atendimento excelente, resolveram tudo rapidamente!\"",
-      "name": "Carlos Silva"
-    },
-    {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"Serviço de alta qualidade, muito profissional e confiável.\"",
-      "name": "Ana Pereira"
-    },
-    {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"A equipe foi super atenciosa e o resultado foi perfeito.\"",
-      "name": "Lucas Oliveira"
-    },
-    {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Fiquei muito satisfeito, super recomendo o serviço!\"",
-      "name": "Mariana Souza"
-    },
-    {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Preço justo e um trabalho de excelência!\"",
-      "name": "Ricardo Lima"
-    },
-    {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"A melhor experiência que já tive com manutenção de motores.\"",
-      "name": "Juliana Costa"
-    }
-    
+
   ],
   "Team": [
     {
