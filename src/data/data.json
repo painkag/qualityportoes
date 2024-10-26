@@ -48,8 +48,8 @@
     },
     {
       "icon": "fa fa-wrench",
-      "name": "Limpeza de Estruturas",
-      "text": "Realizamos a limpeza de estruturas para um funcionamento adequado."
+      "name":"Serviço de Ajuste e Lubrificação de Portões",
+      "text": "Executamos ajustes e lubrificação nas estruturas de portões para garantir um movimento suave e prolongar a durabilidade das peças."
     },
     {
       "icon": "fa fa-wrench",
@@ -102,7 +102,7 @@
     {
       "icon": "fa fa-comments-o",
       "title": "Atendimento Personalizado",
-      "text": "Oferecemos uma consultoria personalizada para cada cliente, explicando de forma clara o que seu carro precisa."
+      "text": "Oferecemos uma consultoria personalizada para cada cliente, explicando de forma clara o que seu Portão precisa."
     },
     {
       "icon": "fa fa-bullhorn",
@@ -112,12 +112,12 @@
     {
       "icon": "fa fa-group",
       "title": "Soluções em Equipe",
-      "text": "Nossa equipe trabalha junta para garantir que seu carro receba o melhor serviço possível."
+      "text": "Nossa equipe trabalha junta para garantir que seu Portão receba o melhor serviço possível."
     },
     {
       "icon": "fa fa-magic",
       "title": "Resultados Rápidos e Eficientes",
-      "text": "Aplicamos soluções rápidas e eficazes para que seu carro funcione como novo em pouco tempo."
+      "text": "Aplicamos soluções rápidas e eficazes para que seu Portão funcione como novo em pouco tempo."
     }
   ]
 }
