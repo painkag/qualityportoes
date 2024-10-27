@@ -36,7 +36,7 @@ export const Header = (props) => {
                 <p>{props.data ? props.data.paragraph : "Loading"}</p>
                 <a
                   onClick={() => HandleWhatsClick({
-                    phoneNumber: '+5511977154129',
+                    phoneNumber: '+5511983863420',
                     message: 'Olá, gostaria de mais informações.'
                   })}
                   href="#features"
