@@ -237,6 +237,23 @@ a:focus,
   }
 }
 
+/* CSS para alterar a ordem no layout móvel */
+@media (max-width: 768px) {
+  .intro-text {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .intro-paragraph {
+    order: 2; /* Coloca o parágrafo após o botão no layout */
+  }
+  
+  .btn-contact {
+    order: 1; /* Coloca o botão antes do parágrafo no layout */
+    margin-bottom: 15px; /* Ajuste para espaçamento */
+  }
+}
+
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
 }
