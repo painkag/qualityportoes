@@ -1,8 +1,6 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-  <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
   <link
     rel="apple-touch-icon"
     sizes="72x72"
@@ -41,7 +39,7 @@
   />
   <title>PORTÕESQUALITYPRO</title>
   <meta name="description" content="" />
-  <meta name="author" content="@Issaafalkattan" />
+  <meta name="author" content="" />
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16755858300">
 </script>
@@ -52,6 +50,26 @@
 
   gtag('config', 'AW-16755858300');
 </script>
+<!-- Event snippet for Visualização de página conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof(url) != 'undefined') {
+        window.location = url;
+      }
+    };
+    gtag('event', 'conversion', {
+        'send_to': 'AW-16755858300/CjjOCOqwvOIZEPy26LU-',
+        'value': 1.0,
+        'currency': 'BRL',
+        'event_callback': callback
+    });
+    return false;
+  }
+  window.gtag_report_conversion = gtag_report_conversion;
+  </script>
+  
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">

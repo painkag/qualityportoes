@@ -253,6 +253,24 @@ a:focus,
     margin-bottom: 15px; /* Ajuste para espaçamento */
   }
 }
+#header {
+  position: relative;
+}
+
+.whatsapp-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 60px;
+  font-size: 60px;
+  color: #25d366;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.whatsapp-icon:hover {
+  transform: scale(1.1);
+}
+
 
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);

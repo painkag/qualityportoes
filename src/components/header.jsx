@@ -1,24 +1,21 @@
 import React, { useState, useEffect } from "react";
 import { HandleWhatsClick } from "../utils/whatssap";
+import '@fortawesome/fontawesome-free/css/all.min.css'; // Importação do Font Awesome
 
 export const Header = (props) => {
-  // Lista de URLs das imagens de fundo
   const images = [
     "../img/portao.jpg",
     "../img/portao1.jpg",
     "../img/portao2.jpg",
   ];
 
-  // Estado para controlar o índice da imagem atual
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-  // Efeito para trocar a imagem a cada 5 segundos
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 5000); // Troca a imagem a cada 5 segundos
+    }, 5000);
 
-    // Limpeza do intervalo ao desmontar o componente
     return () => clearInterval(intervalId);
   }, []);
 
@@ -47,6 +44,17 @@ export const Header = (props) => {
               </div>
             </div>
           </div>
+        </div>
+
+        {/* Ícone do WhatsApp no canto inferior direito */}
+        <div
+          className="whatsapp-icon"
+          onClick={() => HandleWhatsClick({
+            phoneNumber: '+5511983863420',
+            message: 'Olá, gostaria de mais informações.'
+          })}
+        >
+          <i className="fab fa-whatsapp"></i>
         </div>
       </div>
     </header>
