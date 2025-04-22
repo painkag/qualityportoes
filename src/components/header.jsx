@@ -32,15 +32,14 @@ export const Header = (props) => {
                 </h1>
                 <p>{props.data ? props.data.paragraph : "Loading"}</p>
                 <a
-                  onClick={() => HandleWhatsClick({
-                    phoneNumber: '+5511983863420',
-                    message: 'Olá, gostaria de mais informações.'
-                  })}
-                  href="#features"
-                  className="btn btn-custom btn-lg page-scroll"
-                >
-                  Entre em contato
-                </a>{" "}
+                href="https://wa.me/5511977154129?text=Olá,%20gostaria%20de%20mais%20informações."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-custom btn-lg"
+              >
+                Entre em contato
+                </a>
+{" "}
               </div>
             </div>
           </div>
@@ -50,8 +49,8 @@ export const Header = (props) => {
         <div
           className="whatsapp-icon"
           onClick={() => HandleWhatsClick({
-            phoneNumber: '+5511983863420',
-            message: 'Olá, gostaria de mais informações.'
+            phoneNumber: '+5511977154129',
+            message: 'Olá, gostaria de mais informações de serralheria.'
           })}
         >
           <i className="fab fa-whatsapp"></i>
